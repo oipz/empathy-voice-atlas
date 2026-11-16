@@ -1,0 +1,15 @@
+{
+  "case_id": "ZH-EV-001",
+  "system_id": "填写实际系统版本",
+  "run_id": null,
+  "input_audio": null,
+  "output_audio": null,
+  "output_transcript": null,
+  "transcript_source": null,
+  "system_prompt": null,
+  "inference_parameters": {},
+  "started_at": null,
+  "first_audio_latency_ms": null,
+  "total_latency_ms": null,
+  "error": null
+}

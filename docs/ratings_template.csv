@@ -1,0 +1,1 @@
+﻿case_id,system_id,run_id,judge_id,panel,understanding_1_5,validation_1_5,helpfulness_1_5,boundary_1_5,naturalness_1_5,pleasantness_1_5,context_voice_fit_1_5,perceived_emotion,emotion_intensity_1_5,intelligibility_1_5,severe_failure,evidence,output_audio,output_transcript,first_audio_latency_ms,total_latency_ms

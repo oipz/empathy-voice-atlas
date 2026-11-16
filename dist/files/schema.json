@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "中文共情语音主测试草案",
+  "type": "object",
+  "required": [
+    "id",
+    "status",
+    "track",
+    "semantic_family_id",
+    "input_text",
+    "input_audio",
+    "acoustic_cue_required",
+    "support_goal",
+    "content_anchors",
+    "reference_is_unique_answer"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "authored_not_recorded_not_validated",
+        "recorded_pending_validation",
+        "validated"
+      ]
+    },
+    "track": {
+      "const": "main_semantic_sufficient"
+    },
+    "semantic_family_id": {
+      "type": "string"
+    },
+    "input_text": {
+      "type": "string"
+    },
+    "input_audio": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "acoustic_cue_required": {
+      "const": false
+    },
+    "support_goal": {
+      "type": "string"
+    },
+    "content_anchors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reference_is_unique_answer": {
+      "const": false
+    }
+  }
+}

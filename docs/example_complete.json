@@ -1,0 +1,33 @@
+{
+  "id": "ZH-EV-001",
+  "version": "0.1-draft",
+  "status": "authored_not_recorded_not_validated",
+  "track": "main_semantic_sufficient",
+  "semantic_family_id": "family-001",
+  "domain": "求职",
+  "user_affect": "失落",
+  "history": [],
+  "input_text": "准备了很久的面试还是没过，我现在不想听大道理，只想缓一下。",
+  "input_audio": null,
+  "input_audio_condition": "planned_human_conversational_reading",
+  "acoustic_cue_required": false,
+  "support_goal": "只倾听，不急于建议",
+  "acceptable_output_styles": [
+    "温暖",
+    "克制",
+    "留停顿"
+  ],
+  "content_anchors": [
+    "准备和落选",
+    "明确不想听建议"
+  ],
+  "failure_examples": [
+    "别用“一定有更好的”保证未来"
+  ],
+  "reference_response_text": "准备那么久却没等到想要的结果，确实会很失落。先不用急着振作，我愿意听你说。",
+  "reference_is_unique_answer": false,
+  "reference_response_audio": null,
+  "speaker_id": null,
+  "recording_provenance": null,
+  "gold_validation": null
+}
